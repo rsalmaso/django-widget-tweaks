@@ -35,7 +35,7 @@ To enable `widget_tweaks` in your project you need to add it to `INSTALLED_APPS`
 
     INSTALLED_APPS = [
         ...
-        'widget_tweaks',
+        'widget_tweaks.apps.WidgetTweaksConfig',
         ...
     ]
 
